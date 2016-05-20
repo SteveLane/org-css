@@ -232,7 +232,13 @@
     }
 
     img {
-	border: none;
+	padding: 1.2em;
+	box-shadow: 0 0 1em #F78536;
+	-webkit-box-shadow: 0 0 1em #F78536;
+	-moz-box-shadow: 0 0 1em #F78536;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	overflow: auto;
     }
 
     .share img {
